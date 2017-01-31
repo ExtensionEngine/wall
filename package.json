@@ -1,0 +1,46 @@
+{
+  "name": "wall",
+  "version": "1.0.0-beta",
+  "description": "Authentication plugin for hapi",
+  "keywords": [
+    "hapi",
+    "login",
+    "authentication",
+    "oauth2",
+    "oidc",
+    "plugin"
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "boom": "4.x.x",
+    "co": "^4.6.0",
+    "hoek": "4.x.x",
+    "iron": "4.x.x",
+    "joi": "10.x.x",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.mapkeys": "^4.6.0",
+    "lodash.snakecase": "^4.1.1",
+    "mongodb": "2.x.x",
+    "oauth": "0.x.x",
+    "openid-client": "1.x.x"
+  },
+  "peerDependencies": {
+    "yar": "8.x.x"
+  },
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Roguljic <droguljic@protonmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "3.x.x",
+    "eslint-config-semistandard": "7.x.x",
+    "eslint-config-standard": "6.x.x",
+    "eslint-plugin-promise": "3.x.x",
+    "eslint-plugin-standard": "2.x.x"
+  }
+}

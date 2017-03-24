@@ -1,6 +1,6 @@
 {
   "name": "wall",
-  "version": "2.1.0-beta",
+  "version": "2.1.0",
   "description": "Authentication plugin for hapi",
   "keywords": [
     "hapi",

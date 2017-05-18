@@ -16,17 +16,17 @@
   },
   "dependencies": {
     "boom": "4.x.x",
-    "co": "^4.6.0",
+    "co": "4.x.x",
     "hoek": "4.x.x",
-    "homefront": "^1.3.3",
+    "homefront": "2.x.x",
     "iron": "4.x.x",
     "joi": "10.x.x",
-    "lodash.camelcase": "^4.3.0",
-    "lodash.mapkeys": "^4.6.0",
-    "lodash.snakecase": "^4.1.1",
+    "lodash.camelcase": "4.x.x",
+    "lodash.mapkeys": "4.x.x",
+    "lodash.snakecase": "4.x.x",
     "mongodb": "2.x.x",
     "oauth": "0.x.x",
-    "openid-client": "1.x.x"
+    "openid-client": "^1.10.0"
   },
   "peerDependencies": {
     "yar": "8.x.x"
@@ -39,9 +39,9 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "eslint": "3.x.x",
-    "eslint-config-semistandard": "7.x.x",
-    "eslint-config-standard": "6.x.x",
+    "eslint-config-semistandard": "11.x.x",
+    "eslint-config-standard": "10.x.x",
     "eslint-plugin-promise": "3.x.x",
-    "eslint-plugin-standard": "2.x.x"
+    "eslint-plugin-standard": "3.x.x"
   }
 }
